@@ -1,0 +1,45 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# Virtualenv
+venv/
+venv\
+
+# Environment variables
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# pytest
+.pytest_cache/
+
+# coverage
+htmlcov/
+.coverage
+
+# Docker
+*.log
+
+# Kubernetes
+*.yaml.kube
+
+# misc
+instance/
+"@ | Set-Content -Path .gitignore -Encoding UTF8
